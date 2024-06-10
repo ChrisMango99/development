@@ -86,22 +86,28 @@ fees /= 7
 # Raise to the 3rd power **
 num_three = 6
 num_three **=3
-print(num_three)
+# print(num_three)
 
 
 # Raise to the 2nd Power **
 data = 16
-data = ** = 2
+data = **=2
 print(data)
 
 # Integer division, how many times does 3 go into 16?
 val_one = 16
-Val_one //=3
-print(Val_one)
+val_one //=3
+print(val_one)
 
 # Integer divide by 4 //
 val_two = 9
-val_two = //=4
+val_two = //= 4
 print(val_two)
 
 # Modulus we use often to find a value is odd or even
+# Find the remainder if divided by 3 %
+val_three = 10
+
+
+#Find the remainder if divided by 5 %
+val_four = 14
