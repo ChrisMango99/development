@@ -91,23 +91,111 @@ num_three **=3
 
 # Raise to the 2nd Power **
 data = 16
-data = **=2
-print(data)
+# data = **=2
+# print(data)
 
 # Integer division, how many times does 3 go into 16?
 val_one = 16
 val_one //=3
-print(val_one)
+# print(val_one)
 
 # Integer divide by 4 //
-val_two = 9
-val_two = //= 4
-print(val_two)
+# val_two = 9
+# val_two = //=4
+# print(val_two)
 
 # Modulus we use often to find a value is odd or even
 # Find the remainder if divided by 3 %
 val_three = 10
+val_three %= 3
+# print(val_three)
 
 
 #Find the remainder if divided by 5 %
 val_four = 14
+val_four %= 5
+# print(val_four)
+
+# Refactor me !
+fahrenheit = 89 # our temp to convert
+celsius = (fahrenheit -32) * 5/9
+#print(celsius)
+
+
+fahrenheit -= 32 # parenthesis
+fahrenheit *= 5/9
+celsius = fahrenheit
+# print(celsius)
+
+
+''' Boolean Operators'''
+
+# Is 7 less than 5? <
+print(7 < 5)
+result = (7 < 5)
+# print("Is 7 less than 5?",result)
+
+# Is 4 less than or equal to 4? <=
+print(4 <= 4)
+result = (4 <= 4)
+# print("Is 4 less than or equal to 4?",result)
+
+# Is 6 greater than 2? >
+print(6 > 2)
+result = (6 > 2)
+# print("Is 6 greater than 2?",result)
+
+
+# Is 5 greater than or equal to 6? >=
+print(5 >= 6)
+result = (5 >= 6)
+# print("Is 5 greater than or equal to 6?",result)
+
+
+# Is 5 equal to 5? ==
+print(5 == 5)
+result = (5 == 5)
+# print("Is 5 equal to 5",result)
+
+
+# Is 100 not equal to 75? !=
+print(100 != 75)
+result = (100 != 75)
+# print("Is 100 not equal to 75",result)
+
+# and
+# print(2 == 2 and 3 == 1) #False
+# Print
+
+log_1 = (5 == 3)
+log_2 = (4 == 7)
+# print('log 1', log_1)
+# print('log 2', log_2)
+# print('log 1 and log 2',log_1 and log_2)
+
+#or 
+# print(5 == 5 or 5 == 3) # True if at least 1 is true
+
+# not
+is_it_autumn = True
+# print(not is_it_autumn)
+
+x = 5
+y = 10
+
+# Is x less than y? <
+# print(x < y)
+
+# Are We the same object. Is keyword
+fname = 'Taylor'
+first_name = 'Taylor'
+# print(fname is first_name)
+#print(fname == first_name)
+
+# in
+# print('J' in 'January')
+# print('F' in 'March')
+
+# Formatted string
+pet = 'dog' # my variable to be used in my formatted string 
+print(f'I own a {pet}')
