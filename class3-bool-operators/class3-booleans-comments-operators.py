@@ -198,4 +198,8 @@ first_name = 'Taylor'
 
 # Formatted string
 pet = 'dog' # my variable to be used in my formatted string 
-print(f'I own a {pet}')
+# print(f'I own a {pet}
+
+# Homework Assignment below
+'''
+Write a program '''
