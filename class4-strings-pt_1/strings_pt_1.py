@@ -59,9 +59,28 @@ Is 'z' in birthday?
 Is 'w' in wrapper?
 
 '''
-print('A' in 'giraffe')
-print('B' in 'birthday')
-print('W' in 'wrapper')
+#print('A' in 'giraffe')
+#print('B' in 'birthday')
+#print('W' in 'wrapper')
+
+'''
+Using the len function find the numbers of characters in the following strings
+
+Pardon
+Halloween
+Ice Cream
+Tank
+Laptop
+'''
+
+pardon = len('Pardon')
+halloween = len('Halloween')
+ice_cream = len('Ice Cream')
+tank = len('Tank')
+laptop = len('Laptop')
+#print(pardon, halloween, ice_cream, tank, laptop) # result should be 6,9,9,4,6. 
+
+''' Let's try some string methods '''
 
 
 
