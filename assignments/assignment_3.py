@@ -14,10 +14,13 @@ Test your code on a few inputs to make sure it works!
 
 # Get input 
 email = input("Hello, please enter your email: ") # Email is our variable and we are asking the user to input our email, which is chriskayembe@gmail.com
+  
 
-print(email) 
 
-# Clean data
+# Clean data 
+email = email.strip() # We must sanitize the data using the strip method, the result is 22 so step is completed 
+
+ 
 
 # Test 1: It has a "." at the third-to-last index
 
