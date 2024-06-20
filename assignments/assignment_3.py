@@ -24,6 +24,10 @@ email = email.strip() # We must sanitize the data using the strip method, the re
 
 # Test 1: It has a "." at the third-to-last index
 
+test_1 = (email[-4] == '.')
+print(f'Test 1:Does{email}has a "." at the third-to-last index?',test_1)
+
+
 # Test 2: It has exactly one "@" symbol, at the fifth-to-last index or earlier
 
 # Test 3: There is at least one character before the "@" symbol
