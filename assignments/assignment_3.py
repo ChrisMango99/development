@@ -30,13 +30,14 @@ test_1 = (email[-4] == '.')
 
 # Test 2: It has exactly one "@" symbol, at the fifth-to-last index or earlier
 test_2 = ('@' in email[-5::-1])
-print(f'test_2: {email} has exactly one "@" symbol, at the fifth-to-last-index?',test_2)
+#print(f'test_2: {email} has exactly one "@" symbol, at the fifth-to-last-index?',test_2)
 
 
 
 
 # Test 3: There is at least one character before the "@" symbol
-
+test_3 = (email[0] != '@')
+print(f'Test 3: There is at least one character before the @ symbol in {email}',test_3)
 # Test 4: It doesn’t have any spaces (doesn’t contain " ")
 
 # Final Test with AND Keyword
