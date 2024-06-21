@@ -37,7 +37,11 @@ test_2 = ('@' in email[-5::-1])
 
 # Test 3: There is at least one character before the "@" symbol
 test_3 = (email[0] != '@')
-print(f'Test 3: There is at least one character before the @ symbol in {email}',test_3)
+#print(f'Test 3: There is at least one character before the @ symbol in {email}',test_3)
+
 # Test 4: It doesn’t have any spaces (doesn’t contain " ")
+test_4 = (' ' not in email)
+#print(test_4)
+
 
 # Final Test with AND Keyword
