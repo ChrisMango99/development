@@ -45,3 +45,6 @@ test_4 = (' ' not in email)
 
 
 # Final Test with AND Keyword
+
+all_tests = test_1 and test_2 and test_3 and test_4
+print(all_tests)
