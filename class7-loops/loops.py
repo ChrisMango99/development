@@ -57,14 +57,14 @@ This will keep asking us to input a word until we input "stop" Let's follow it l
 
 '''
 
-userin = '' # initialize your variable
+# userin = '' # initialize your variable
 
-while userin != 'stop':
-    userin = input('Enter something: ').lower()
-    print(userin)
+# while userin != 'stop':
+#     userin = input('Enter something: ').lower()
+#     print(userin)
 
 
-print('Done collecting user input')
+# print('Done collecting user input')
 
 '''
 Improve the login system we wrote last class to allow multiple attempts. You’re developing a login system for a website. Write a Python program that checks whether the user has entered the correct username and password. Just like before:
@@ -77,12 +77,19 @@ If they match, print “Login successful” and end the program.
 
 
 # Initialize all of our variables
+# system_username, system_password = 'admin', 'password'
+# username, password = '', ''
 
 
-# While Loop with conditional to handle user input
 
 
+# # While Loop with conditional to handle user input
+# while system_username != username and system_password != password:
+#     print("Incorrect username or password")
+#     username = input('Please enter your username')
+#     password = input('Please enter your password')
 
+#print('Login Successful')
 
 ''' For Loops
 For loops are used to iterate through something.
@@ -106,21 +113,29 @@ Lets loop through the string "Hello World"
 
 '''
 
+# my_string = 'Hello World how is everyone doing today'
 
+# for m in my_string:
+#     print(m)
 
 '''
 Lets loop through a list of colors
 
 '''
-my_colors = ['red', 'green', 'orange', 'yellow']
+# colors = ['red', 'green', 'orange', 'yellow']
+
+# for c in colors:
+#     print(f'My favorite color is {c}')
 
 
 
 '''Lets loop through a tuple
 
 '''
-my_fav_food = ('pizza', 'subs', 'chicken')
+# fav_food = ('pizza', 'subs', 'chicken')
 
+# for f in fav_food:
+#     print(f)
 
 
 
@@ -130,6 +145,16 @@ Write a for loop that loops through a string, counts all the letters, and then p
 
 '''
 
+# season = 'summer'
+# counter = 0
+
+# for s in season:
+#     counter += 1
+#     print(s, counter)
+
+# print(f'{season} has {counter} letter(s)') # formatted string
+
+    
 
 
 
@@ -148,17 +173,34 @@ Hint: remember to cast to int() for each digit in the loop
 '''
 
 # initialize variables and get user input3
+# userin = input('Please enter your data:')
+
+# total = 0 # This variable, will capture the values as we loop through
 
 
 
-# # Verify Decimal, if it is, lets do our fun loop, else we will send the user home with a nice message
+# # # Verify Decimal, if it is, lets do our fun for loop, else we will send the user home with a nice message
 
+# if userin.isnumeric(): #if the string value is actually numeric
+#     for u in userin: # we can loop through
+#         total += u
+# else:
+#     print('Sorry this is not a valid number')
 
+# print(total)
 
 
 ''' More conditionals in loops'''
 
+# word = 'hello'
 
+# vowels = ['a','e','i','o','u']
+
+# for word in word: # this will loop through the words variable 
+#     if word in vowels: # if the letters in words, is in vowels
+#         print(f'{word} is a vowel')
+#     else:
+#         print(f'{word} is a consonant')
 
 
 ''' Cleaning Strings
@@ -171,3 +213,18 @@ test_string = 'a56b32ra87ca++d#@a*&b21r23a'
 
 '''
 
+test_string = 'a56b32ra87ca++d#@a*&b21r23a' # we only want (A-Z, a-z)
+output = '' # we will add the letters that pass testing to this last
+
+for t in test_string: # we are looping through t
+    if t.isalpha(): 
+
+
+# word_1 = 'move me to another variable'
+
+# word_2 = ''
+# for w in word_1:
+#     word_2 += w
+#    # print(w)
+
+# print(word_2)
