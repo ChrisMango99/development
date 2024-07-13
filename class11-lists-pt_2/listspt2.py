@@ -131,27 +131,37 @@ lis = [
     [4,5,6],
     [7,8,9]]
 
-final_list = [] # this will hold our swapped rows and columns 
+# final_list = [] # this will hold our swapped rows and columns 
 
-for i in range(len(lis[0])): # this will set the length for the loop of our 2d lists 
-    temp_list = [] # this list will hold our coulmn items
-    for item in lis:
-        # appending list values and indexes
-        temp_list.append(item[i])
-    final_list.append(temp_list) #appending swapped rows and columns to final list 
-# 
+# for i in range(len(lis[0])): # this will set the length for the loop of our 2d lists 
+#     temp_list = [] # this list will hold our coulmn items
+#     for item in lis:
+#         # appending list values and indexes
+#         temp_list.append(item[i])
+#     final_list.append(temp_list) #appending swapped rows and columns to final list 
+# # 
 
-for row in final_list:
-    for columns in row:
-        print(columns, end= '')
-    print()
-print(final_list)
+# for row in final_list:
+#     for columns in row:
+#         print(columns, end= '')
+#     print()
+# print(final_list)
 
 
 
 
 # Let's transpose with Pandas!
 # import pandas as pd
+
+
+#df is your dataframe
+#example function is applicable for all INT dataframe 
+
+
+
+#df is your dataframe
+#example function is applicable for all INT dataframe 
+
 
 # df = pd.DataFrame(lis)
 # df = df.transpose()
@@ -206,6 +216,13 @@ Let's say you have a list of vegetables, and you want a new list containing only
 # For Loop
 
 vegetables = ['broccoli', 'kale', 'onion', 'garlic', 'kale']
+
+
+short_vegetables[]
+
+for v in vegetables:
+    if len(v) < 6:
+        short_vegetables.append(v)
 
 # List comprehension
 
