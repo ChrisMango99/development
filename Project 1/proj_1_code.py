@@ -20,21 +20,16 @@ Contains at least one of the characters: !,?,@,#,^,&,*,_,-. Also it must not hav
 #Step 1: print statement clearly explaining to the user both the username and password requirements.
 Userin = input("Hello User, Here are the password and username requirements. type Ok to continue:")
 Rules = input(" Username must never start with a capital letter, password must contain at least one uppercase and lowercase letter. Press OK to continue:")
-print(Userin)
-print(Rules, "Now please create a username and password to access this website:")
+# print(Userin)
+# print(Rules, "Now please create a username and password to access this website:")
 
 
 # Initializing Variables
-# username = ''
-# password = ''
-# system_username = ''
-# system_password = ''
-
-
-
-
-
-
+system_username, system_password = 'chris_99', 'kaye99!'
+username = input("Hello User, please enter your username:")
+password = input("Thank you, now please enter your password:")
+# print(username)
+# print(password)
 
 
 #Step 2
