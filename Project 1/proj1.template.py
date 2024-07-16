@@ -3,14 +3,23 @@
 
 
 
-''' Initialize your variables 
+''' Initialize your variables, declaring variables 
 
 We will need 2 variables to capture the username and password. Another 2 variables to use as the system username and password to authenticate against when we register
 '''
+username = ''
+password = ''
 
 
 ''' A List to handle error messages '''
+# errors = ['Please check username format', 'please check password format']
 
+# username_format_error = errors[0]
+
+# username = 56
+
+# if username != 55:
+#     print(username_format_error)
 
 
 ''' Start your while loop '''
