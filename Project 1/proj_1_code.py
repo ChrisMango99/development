@@ -10,14 +10,24 @@ PassRule = input("The password must contain at least one digit, contain at least
 print(Userin and UserRule and PassRule)
 
 
-# Initializing Variables
-system_username, system_password = 'chris_99', 'kaye99!'
-username = input("Hello User, please enter your username:")
-password = input("Thank you, now please enter your password:")
+# Initializing Variables/Declaring Variables
+system_username,system_password = '',''
+username,password = '',''
+
+username= input("Please enter your username:")
+password= input("Now Please enter your password:")
+
 
 
 #Step 2
+errors = ['Please check username format', 'please check password format']
 
+username_format_error = errors[0]
+
+username = 56
+
+if username != 55:
+    print(username_format_error)
 
 
 
