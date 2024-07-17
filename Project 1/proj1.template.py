@@ -1,6 +1,6 @@
 
 ''' Print statement outlining rules for your application'''
-msg_1 = input('Hello User, please read the username and password requirements to log in. Press OK to continue:')
+msg_1 = input('hello user, please read the username and password requirements to log in. Press OK to continue:')
 msg_2 = input('The username must start with a lowercase letter, It must only contain letters, numbers and underscores, It must not have any spaces. Type OK to continue:')
 msg_3 = input('The password must contain at least one digit, contain at least one special character, and not have any spaces. Type OK to continue:')
 
@@ -15,6 +15,7 @@ username , password = '',''
 system_username, system_password = '',''
 
 
+
 ''' A List to handle error messages '''
 errors = ['Please check username format', 'please check password format']
 
@@ -27,6 +28,7 @@ if username != 55:
 
 
 ''' Start your while loop '''
+
 
 
 
