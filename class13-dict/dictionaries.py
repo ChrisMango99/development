@@ -10,26 +10,35 @@
 
 # How do we create a dictionary?
 
+user_data = {'user_id': 400,
+            'fname':'Fritz'}
 
+# print(user_data)
+# print(type(user_data))
 
 
 # Bracket notation - we can grab the value by referencing the key
+# print(user_data["fname"])
+# print(user_data["user_id"])
 
-
-# # Add new key/value pair
-
+#  Add new key/value pair
+user_data['address'] = 'elm street'
+# print(user_data)
 
 # lets look at all the methods available to us
-
+# print(dir(user_data))
 
 # lets try one
-
+#print(user_data. __contains__('user_id')) # Basically looks if a certain variable is in a list or dictionary 
 
 # Dict constructor
-
+new_dict = dict()
+# print(new_dict)
+# print(type(new_dict))
 
 # Let's update our name key
-
+user_data = dict(user_id = 400, fname = 'Daisy')
+# print(user_data)
 
 
 # Dictionary methods
@@ -42,7 +51,7 @@ dog = {
 }
 
 # Let's look at our keys
-
+print(f' The keys for this dog dictionary are {dog.keys()}')
 
 # or set it as a variable?
 
@@ -250,7 +259,7 @@ records = [{'name': 'Bob', 'title': 'manager', 'salary': 50000},
 
 
 
-import pandas as pd
+# import pandas as pd
 
 
 
