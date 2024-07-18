@@ -19,12 +19,25 @@ system_password = 'mango_man'
 username = ''
 password = ''
 
-#print(username , password , system_username , system_password)
+username = input("enter your username:")
+password = input("enter your password:")
+
+if system_username == username and system_password == password:
+    print("login successfull")
+
+elif system_username != username and system_password != password:
+    print("incorrect info")
+
+elif system_username == username and system_password != password:
+    print('check password')
+
+elif system_username != username and system_password == password:
+    print('check username')
 
 
 
 ''' A List to handle error messages '''
-error = ['Invalid Username', 'Invalid Password']
+# error = ['Invalid Username', 'Invalid Password']
 
 
 
