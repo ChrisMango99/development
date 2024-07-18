@@ -4,15 +4,15 @@ msg_1 = input('hello user, please read the username and password requirements to
 msg_2 = input('The username must start with a lowercase letter, It must only contain letters, numbers and underscores, It must not have any spaces. Type OK to continue:')
 msg_3 = input('The password must contain at least one digit, contain at least one special character, and not have any spaces. Type OK to continue:')
 
-print(msg_1 and msg_2 and msg_3)
+print(msg_1, msg_2,msg_3)
 
 
 ''' Initialize your variables, declaring variables 
 
 We will need 2 variables to capture the username and password. Another 2 variables to use as the system username and password to authenticate against when we register
 '''
+system_username , system_password = 'chris99','mango_man'
 username , password = '',''
-system_username, system_password = '',''
 
 
 

@@ -66,7 +66,7 @@ dog = {
 }
 
 # Lets look at our values
-
+print(f'The values for this dog dictionary are {dog.values()}')
 
 # or set to a variable
 
@@ -80,6 +80,9 @@ dog = {
 
 # Lets use get method to get a key value
 
+print(dog) # dictionary has data 
+dog.clear() # clear functions clears dict
+print(dog) # we now have an empty dictionary 
 dog = {
     "breed": "japanese chin",
     "gender": "female",
@@ -126,7 +129,6 @@ dog = {
     "gender": "male",
     "age": 7
 }
-
 
 
 
