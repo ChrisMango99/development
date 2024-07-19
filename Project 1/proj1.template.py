@@ -4,7 +4,7 @@ msg_1 = ('hello user, To sign up enter a username and password')
 msg_2 = ('username must start with a lowercase letter, must only contain letters, numbers and underscores, and not have any spaces.')
 msg_3 = ('The password must contain at least one digit, contain at least one special character, and not have any spaces.')
 
-print(msg_1 and msg_2 and msg_3)
+print(msg_1 ,msg_2, msg_3)
 
 
 
@@ -18,22 +18,35 @@ system_password = 'Mango_man'
 username = ''
 password = ''
 
-username = input("enter your username:")
-password = input("enter your password:")
+
+
+
+
+''' Start your while loop '''
+while system_username != username and system_password != password:
+   username = input("Enter a username: ")
+   password = input("Enter a password: ")  
+
+
+
 
 if system_username == username and system_password == password:
     print("login successful")
 
+
 elif system_username != username and system_password != password:
     print("incorrect info")
-
+    
 elif system_username == username and system_password != password:
     print('check password')
-
+    
 elif system_username != username and system_password == password:
     print('check username')
 
- 
+
+
+    
+
 
 
 
@@ -48,23 +61,14 @@ if password[1].isspace():
 
 
 
-''' Start your while loop '''
-
-
-
-
-
-''' Get your username and password'''
-
-
-''' Test your username and enforce logic'''
-
-
-''' Test your password and enforce logic'''
 
 
 
 ''' If we pass, congratulate the user and immediately ask them to register'''
+if system_username == username and system_password == password:
+    print("Sign in Complete")
+if system_username!= username and system_password != password:
+    print("Unable to Login try again")
 
 
 
