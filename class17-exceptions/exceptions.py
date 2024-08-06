@@ -19,7 +19,7 @@ from functools import reduce
 
 
 my_list = [1, 2, 3, 4, 5]
-
+print("my_list")
 
 ''' More fun with functions'''
 

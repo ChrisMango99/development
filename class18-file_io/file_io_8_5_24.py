@@ -4,7 +4,7 @@ import pandas as pd
 
 
 # Set our cwd as same folder of our python file
-
+#os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 
 # Lets try to create a file, see what happens
@@ -17,7 +17,7 @@ FileNotFoundError: [Errno 2] No such file or directory: 'my_file.txt'
 '''
 
 # Now lets try with the optional parameter to write
-
+f = open('my_file.txt', 'w')
 
 ''' 
 Fun fact: Why is file closing important?
@@ -35,7 +35,9 @@ When you write to a file, Python may use a buffer to temporarily store the data 
 
 
 # Read
-
+# with open('monday.txt', 'r') as monday:
+#     output = monday.read()
+#     print(output)
 
 # Readline
 
